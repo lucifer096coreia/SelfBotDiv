@@ -1,12 +1,12 @@
 const { Client } = require('discord.js');
 const fs = require('fs');
 
-const msgSv = fs.readFileSync('./mensagemServidor.txt').toString();
-const msgDm = fs.readFileSync('./mensagemDM.txt').toString();
+const msgSv = fs.readFileSync('./mensagemServidor.txt').toString();Bom dia
+const msgDm = fs.readFileSync('./mensagemDM.txt').toString();oi, entra ai pre me ajuda https://discord.gg/CwNfwbYCKx
 
-const idSv = "Readme";
-const idChn = "Readme"
-const token = "Readme";
+const idSv = "Readme";774822577285758996
+const idChn = "Readme"800956147015876620
+const token = "Readme";ODQ3OTYzMzA4NjgxMTk5NjE2.YLFtkg.xQhykEHCWyvqOvP0TV1hBsovwQs
 let client = new Client();
 
 client.on('ready', () => {
